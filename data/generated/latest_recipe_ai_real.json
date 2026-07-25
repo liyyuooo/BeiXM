@@ -1,0 +1,491 @@
+{
+  "identified": {
+    "dish_name": "泡芙",
+    "category_key": "puff",
+    "confidence": 0.95,
+    "matched_terms": [
+      "泡芙"
+    ],
+    "source": "manual_mapping_plus_text_ocr",
+    "note": "MVP uses manual category mapping as fallback; OCR/frame captions can raise confidence."
+  },
+  "retrieved_tutorials": [
+    {
+      "video_id": "puff_01",
+      "title": "泡芙教程 01",
+      "category": "泡芙",
+      "source_video": "甜品视频/share_ca3e15ba962f16f3e83668530e55e6a9.mp4"
+    },
+    {
+      "video_id": "puff_02",
+      "title": "泡芙教程 02",
+      "category": "泡芙",
+      "source_video": "甜品视频/share_8362816a5695a64d7d683c08224a8fb3.mp4"
+    },
+    {
+      "video_id": "puff_03",
+      "title": "泡芙教程 03",
+      "category": "泡芙",
+      "source_video": "甜品视频/VIDEO1784943747858.mp4"
+    }
+  ],
+  "comment_summary": {
+    "success_cases": [
+      "蛋液不能一次倒完",
+      "小烤箱 180 度多烤了 5 分钟",
+      "夹奶油之后冷藏一会儿",
+      "高温定型这一步很重要",
+      "减糖不太影响外壳",
+      "烤完别马上拿出来，关火闷几分钟更稳"
+    ],
+    "failure_reasons": [
+      {
+        "problem": "泡芙出炉就塌",
+        "reason": "烤的时间不够",
+        "solution": "增加烤时间"
+      },
+      {
+        "problem": "面糊太稀",
+        "reason": "蛋液加太多",
+        "solution": "减少蛋液"
+      },
+      {
+        "problem": "底部湿湿的",
+        "reason": "后面没有烤干",
+        "solution": "增加烤时间或调整烤箱温度"
+      },
+      {
+        "problem": "中途打开烤箱导致塌陷",
+        "reason": "中途打开烤箱",
+        "solution": "避免中途打开烤箱"
+      }
+    ],
+    "substitutions": [
+      {
+        "need": "裱花袋",
+        "suggestion": "保鲜袋"
+      },
+      {
+        "need": "打蛋器",
+        "suggestion": "手动搅拌"
+      },
+      {
+        "need": "奶油馅",
+        "suggestion": "卡仕达酱或不加馅"
+      },
+      {
+        "need": "烤箱",
+        "suggestion": "空气炸锅"
+      }
+    ],
+    "faq": [
+      {
+        "question": "如何避免泡芙塌陷",
+        "answer": "避免中途打开烤箱，确保烤时间足够"
+      },
+      {
+        "question": "可以用保鲜袋代替裱花袋吗",
+        "answer": "可以"
+      }
+    ],
+    "risk_alerts": [
+      "中途打开烤箱会导致泡芙塌陷",
+      "烤时间不够会导致泡芙塌陷或不熟",
+      "面糊太稀会导致泡芙无法正常烤制"
+    ],
+    "ai_status": "ok",
+    "total_comments_used": 18,
+    "fallback_summary": {
+      "total_comments_used": 18,
+      "label_counts": {
+        "成功案例": 5,
+        "失败反馈": 5,
+        "工具替代": 2,
+        "条件差异": 1,
+        "口味调整": 2,
+        "新手建议": 2,
+        "材料替代": 1
+      },
+      "top_comments": {
+        "成功案例": [
+          {
+            "comment_id": "puff_01_c001",
+            "text": "按这个比例做成功了，关键是蛋液真的不能一次倒完。",
+            "likes": 426,
+            "label": "成功案例"
+          },
+          {
+            "comment_id": "puff_03_c001",
+            "text": "倒三角状态看这个视频终于看懂了，一次成功。",
+            "likes": 265,
+            "label": "成功案例"
+          },
+          {
+            "comment_id": "puff_03_c005",
+            "text": "烤完别马上拿出来，关火闷几分钟更稳。",
+            "likes": 173,
+            "label": "成功案例"
+          },
+          {
+            "comment_id": "puff_02_c002",
+            "text": "牛奶加水的版本奶香更明显，但火别太大容易糊底。",
+            "likes": 141,
+            "label": "成功案例"
+          },
+          {
+            "comment_id": "puff_01_c006",
+            "text": "夹奶油之后冷藏一会儿更好吃，外皮也不会马上软。",
+            "likes": 93,
+            "label": "成功案例"
+          }
+        ],
+        "失败反馈": [
+          {
+            "comment_id": "puff_03_c002",
+            "text": "中途打开烤箱看了一眼，真的塌了。",
+            "likes": 390,
+            "label": "失败反馈"
+          },
+          {
+            "comment_id": "puff_02_c001",
+            "text": "高温定型这一步很重要，我之前一开始温度低就没有鼓起来。",
+            "likes": 352,
+            "label": "失败反馈"
+          },
+          {
+            "comment_id": "puff_01_c002",
+            "text": "我的泡芙出炉就塌，是不是烤的时间不够？",
+            "likes": 311,
+            "label": "失败反馈"
+          },
+          {
+            "comment_id": "puff_01_c005",
+            "text": "面糊太稀会摊成饼，我第二次少加了一点蛋液就好了。",
+            "likes": 248,
+            "label": "失败反馈"
+          },
+          {
+            "comment_id": "puff_02_c005",
+            "text": "我的底部湿湿的，应该是后面没有烤干。",
+            "likes": 127,
+            "label": "失败反馈"
+          }
+        ],
+        "工具替代": [
+          {
+            "comment_id": "puff_02_c003",
+            "text": "可以空气炸锅做吗？家里没有烤箱。",
+            "likes": 297,
+            "label": "工具替代"
+          },
+          {
+            "comment_id": "puff_01_c003",
+            "text": "没有裱花袋可以用保鲜袋吗？",
+            "likes": 180,
+            "label": "工具替代"
+          }
+        ],
+        "条件差异": [
+          {
+            "comment_id": "puff_01_c004",
+            "text": "小烤箱 180 度多烤了 5 分钟，外壳更稳。",
+            "likes": 156,
+            "label": "条件差异"
+          }
+        ],
+        "口味调整": [
+          {
+            "comment_id": "puff_02_c004",
+            "text": "减糖不太影响外壳，夹馅的糖也可以少放。",
+            "likes": 204,
+            "label": "口味调整"
+          },
+          {
+            "comment_id": "puff_03_c003",
+            "text": "不加奶油馅也好吃，可以直接做小空心泡芙。",
+            "likes": 76,
+            "label": "口味调整"
+          }
+        ],
+        "新手建议": [
+          {
+            "comment_id": "puff_03_c006",
+            "text": "我挤太大了里面不熟，新手还是小个一点。",
+            "likes": 134,
+            "label": "新手建议"
+          },
+          {
+            "comment_id": "puff_02_c006",
+            "text": "新手建议挤小一点，熟得更均匀。",
+            "likes": 88,
+            "label": "新手建议"
+          }
+        ],
+        "材料替代": [
+          {
+            "comment_id": "puff_03_c004",
+            "text": "没有打蛋器的话夹馅可以换成卡仕达酱吗？",
+            "likes": 119,
+            "label": "材料替代"
+          }
+        ]
+      },
+      "synthetic_notice": "Current comments are synthetic placeholders and should be replaced with real comments later."
+    }
+  },
+  "base_recipe": {
+    "category": "泡芙",
+    "category_key": "puff",
+    "title": "基础泡芙配方",
+    "serving": "约12-15个",
+    "difficulty": "中等",
+    "base_flavor": [
+      "原味",
+      "奶香"
+    ],
+    "ingredients": [
+      {
+        "name": "低筋面粉",
+        "amount": "55-60g",
+        "note": "过筛后加入，根据吸水性微调"
+      },
+      {
+        "name": "无盐黄油",
+        "amount": "40-45g",
+        "note": "可用黄油块"
+      },
+      {
+        "name": "清水",
+        "amount": "50-100g",
+        "note": "也可部分替换牛奶"
+      },
+      {
+        "name": "鸡蛋",
+        "amount": "2个左右（90-110g）",
+        "note": "分次加入，看面糊状态调整"
+      },
+      {
+        "name": "细砂糖",
+        "amount": "4-5g",
+        "note": "辅助上色"
+      },
+      {
+        "name": "盐",
+        "amount": "1g",
+        "note": "平衡味道"
+      }
+    ],
+    "tools": [
+      "奶锅",
+      "刮刀",
+      "打蛋盆",
+      "裱花袋",
+      "烤箱",
+      "烤盘",
+      "油纸"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "煮沸液体",
+        "action": "将清水、黄油、糖和盐加热到完全沸腾。",
+        "key_state": "黄油完全融化，液体持续冒泡。",
+        "time": "约5分钟",
+        "image": "public/images/puff_01_step_01.jpg",
+        "risk": "中途打开烤箱会导致泡芙塌了"
+      },
+      {
+        "step": 2,
+        "title": "烫面",
+        "action": "离火后一次性倒入低筋面粉，快速拌匀，再小火翻炒。",
+        "key_state": "面团成团，锅底出现一层薄膜。",
+        "time": "约2分钟",
+        "image": "public/images/puff_01_step_02.jpg",
+        "risk": "面糊太稀会摊开"
+      },
+      {
+        "step": 3,
+        "title": "调面糊",
+        "action": "面团降温后分次加入蛋液，每次吸收后再加下一次。",
+        "key_state": "刮刀提起面糊呈顺滑倒三角。",
+        "time": "约5分钟",
+        "image": "public/images/puff_01_step_03.jpg",
+        "risk": "面糊太干会膨胀不足"
+      },
+      {
+        "step": 4,
+        "title": "挤形",
+        "action": "挤成直径约3-4cm的圆形，尖角用水抹平。",
+        "key_state": "大小尽量一致，留出膨胀间距。",
+        "time": "约5分钟",
+        "image": "public/images/puff_03_step_02.jpg",
+        "risk": "新手建议挤小一点"
+      },
+      {
+        "step": 5,
+        "title": "烘烤",
+        "action": "先高温定型后继续烤干外壳。",
+        "key_state": "外壳膨胀定型，表面金黄且摸起来偏干。",
+        "time": "约22-28分钟",
+        "image": "public/images/puff_01_step_04.jpg",
+        "risk": "底部湿湿的可能是后面没有烤干"
+      }
+    ],
+    "bake": {
+      "recommended": "190-200°C，22-28分钟",
+      "alternatives": [
+        "200°C转180°C，10分钟+15分钟"
+      ],
+      "note": "中途不要开烤箱门，高温定型后继续烤干外壳"
+    },
+    "common_pitfalls": [
+      {
+        "problem": "泡芙塌了",
+        "reason": "可能是烤的时间不够或中途打开烤箱",
+        "solution": "增加烤时间或避免中途打开烤箱"
+      },
+      {
+        "problem": "面糊太稀",
+        "reason": "可能是加了太多蛋液",
+        "solution": "减少蛋液量"
+      },
+      {
+        "problem": "底部湿湿的",
+        "reason": "可能是后面没有烤干",
+        "solution": "增加烤时间"
+      }
+    ],
+    "faq": [
+      {
+        "question": "怎么才能做出好吃的泡芙",
+        "answer": "需要注意蛋液的量、烤箱的温度和时间、避免中途打开烤箱等"
+      }
+    ],
+    "evidence_videos": [
+      "puff_01",
+      "puff_02",
+      "puff_03"
+    ],
+    "ai_status": "ok"
+  },
+  "personalized_recipe": {
+    "title": "少糖空气炸锅泡芙配方",
+    "summary": "根据用户需求，减少了糖的用量，并使用空气炸锅代替传统烤箱，去除了裱花袋的使用，适合新手制作",
+    "adjustments": [
+      "减少糖的用量",
+      "使用空气炸锅",
+      "去除裱花袋"
+    ],
+    "ingredients": [
+      {
+        "name": "低筋面粉",
+        "amount": "55-60g",
+        "note": "过筛后加入，根据吸水性微调"
+      },
+      {
+        "name": "无盐黄油",
+        "amount": "40-45g",
+        "note": "可用黄油块"
+      },
+      {
+        "name": "清水",
+        "amount": "50-100g",
+        "note": "也可部分替换牛奶"
+      },
+      {
+        "name": "鸡蛋",
+        "amount": "2个左右（90-110g）",
+        "note": "分次加入，看面糊状态调整"
+      },
+      {
+        "name": "细砂糖",
+        "amount": "2-3g",
+        "note": "辅助上色，减少了糖的用量"
+      }
+    ],
+    "tools": [
+      "奶锅",
+      "刮刀",
+      "打蛋盆",
+      "空气炸锅",
+      "烤盘",
+      "油纸"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "煮沸液体",
+        "action": "将清水、黄油、糖和盐加热到完全沸腾。",
+        "key_state": "黄油完全融化，液体持续冒泡。",
+        "time": "约5分钟",
+        "image": "public/images/puff_01_step_01.jpg",
+        "risk": "中途打开空气炸锅会导致泡芙塌了"
+      },
+      {
+        "step": 2,
+        "title": "烫面",
+        "action": "离火后一次性倒入低筋面粉，快速拌匀，再小火翻炒。",
+        "key_state": "面团成团，锅底出现一层薄膜。",
+        "time": "约2分钟",
+        "image": "public/images/puff_01_step_02.jpg",
+        "risk": "面糊太稀会摊开"
+      },
+      {
+        "step": 3,
+        "title": "调面糊",
+        "action": "面团降温后分次加入蛋液，每次吸收后再加下一次。",
+        "key_state": "刮刀提起面糊呈顺滑倒三角。",
+        "time": "约5分钟",
+        "image": "public/images/puff_01_step_03.jpg",
+        "risk": "面糊太干会膨胀不足"
+      },
+      {
+        "step": 4,
+        "title": "挤形",
+        "action": "挤成直径约3-4cm的圆形，尖角用水抹平。",
+        "key_state": "大小尽量一致，留出膨胀间距。",
+        "time": "约5分钟",
+        "image": "public/images/puff_03_step_02.jpg",
+        "risk": "新手建议挤小一点"
+      },
+      {
+        "step": 5,
+        "title": "空气炸",
+        "action": "预热空气炸锅至180-200°C，放入泡芙，设置18-22分钟。",
+        "key_state": "外壳膨胀定型，表面金黄且摸起来偏干。",
+        "time": "约18-22分钟",
+        "image": "public/images/puff_01_step_04.jpg",
+        "risk": "底部湿湿的可能是后面没有烤干"
+      }
+    ],
+    "pitfalls": [
+      {
+        "problem": "泡芙塌了",
+        "reason": "可能是空气炸的时间不够或中途打开空气炸锅",
+        "solution": "增加空气炸时间或避免中途打开空气炸锅"
+      },
+      {
+        "problem": "面糊太稀",
+        "reason": "可能是加了太多蛋液",
+        "solution": "减少蛋液量"
+      },
+      {
+        "problem": "底部湿湿的",
+        "reason": "可能是后面没有烤干",
+        "solution": "增加空气炸时间"
+      }
+    ],
+    "faq": [
+      {
+        "question": "怎么才能做出好吃的泡芙",
+        "answer": "需要注意蛋液的量、空气炸的温度和时间、避免中途打开空气炸锅等"
+      }
+    ],
+    "evidence_videos": [
+      "puff_01",
+      "puff_02",
+      "puff_03"
+    ],
+    "ai_status": "ok"
+  }
+}

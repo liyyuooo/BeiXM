@@ -1,0 +1,191 @@
+{
+  "version": 1,
+  "purpose": "Preprocess videos for frame recognition and OCR.",
+  "records": [
+    {
+      "video_id": "puff_01",
+      "source_video": "甜品视频/share_ca3e15ba962f16f3e83668530e55e6a9.mp4",
+      "category_key": "puff",
+      "frame_samples": [
+        {
+          "kind": "quicklook_thumbnail",
+          "image": "public/images/share_ca3e15ba962f16f3e83668530e55e6a9.mp4.png",
+          "timestamp": "thumbnail",
+          "ocr_text": "",
+          "frame_caption": ""
+        }
+      ],
+      "ocr_text": "",
+      "frame_caption": "",
+      "status": "pending_real_vision_ocr",
+      "notes": [
+        "Use OCR on sampled frames to capture on-screen ingredient text.",
+        "Use vision captioning on cover/middle/key frames to confirm dessert subject.",
+        "Keep manual category mapping as fallback for demo stability."
+      ],
+      "thumbnail_result": {
+        "ok": true,
+        "command": [
+          "/usr/bin/qlmanage",
+          "-t",
+          "-s",
+          "720",
+          "-o",
+          "/Users/liyu/Desktop/大区赛/public/images",
+          "/Users/liyu/Desktop/大区赛/甜品视频/share_ca3e15ba962f16f3e83668530e55e6a9.mp4"
+        ],
+        "stdout": "Testing Quick Look thumbnails with files:\n\t/Users/liyu/Desktop/大区赛/甜品视频/share_ca3e15ba962f16f3e83668530e55e6a9.mp4\n* /Users/liyu/Desktop/大区赛/甜品视频/share_ca3e15ba962f16f3e83668530e55e6a9.mp4 produced one thumbnail\nDone producing thumbnails",
+        "stderr": "",
+        "generated_image": "public/images/share_ca3e15ba962f16f3e83668530e55e6a9.mp4.png"
+      }
+    },
+    {
+      "video_id": "puff_02",
+      "source_video": "甜品视频/share_8362816a5695a64d7d683c08224a8fb3.mp4",
+      "category_key": "puff",
+      "frame_samples": [
+        {
+          "kind": "quicklook_thumbnail",
+          "image": "public/images/share_8362816a5695a64d7d683c08224a8fb3.mp4.png",
+          "timestamp": "thumbnail",
+          "ocr_text": "",
+          "frame_caption": ""
+        }
+      ],
+      "ocr_text": "",
+      "frame_caption": "",
+      "status": "pending_real_vision_ocr",
+      "notes": [
+        "Use OCR on sampled frames to capture on-screen ingredient text.",
+        "Use vision captioning on cover/middle/key frames to confirm dessert subject.",
+        "Keep manual category mapping as fallback for demo stability."
+      ],
+      "thumbnail_result": {
+        "ok": true,
+        "command": [
+          "/usr/bin/qlmanage",
+          "-t",
+          "-s",
+          "720",
+          "-o",
+          "/Users/liyu/Desktop/大区赛/public/images",
+          "/Users/liyu/Desktop/大区赛/甜品视频/share_8362816a5695a64d7d683c08224a8fb3.mp4"
+        ],
+        "stdout": "Testing Quick Look thumbnails with files:\n\t/Users/liyu/Desktop/大区赛/甜品视频/share_8362816a5695a64d7d683c08224a8fb3.mp4\n* /Users/liyu/Desktop/大区赛/甜品视频/share_8362816a5695a64d7d683c08224a8fb3.mp4 produced one thumbnail\nDone producing thumbnails",
+        "stderr": "",
+        "generated_image": "public/images/share_8362816a5695a64d7d683c08224a8fb3.mp4.png"
+      }
+    },
+    {
+      "video_id": "puff_03",
+      "source_video": "甜品视频/VIDEO1784943747858.mp4",
+      "category_key": "puff",
+      "frame_samples": [
+        {
+          "kind": "quicklook_thumbnail",
+          "image": "public/images/VIDEO1784943747858.mp4.png",
+          "timestamp": "thumbnail",
+          "ocr_text": "",
+          "frame_caption": ""
+        }
+      ],
+      "ocr_text": "",
+      "frame_caption": "",
+      "status": "pending_real_vision_ocr",
+      "notes": [
+        "Use OCR on sampled frames to capture on-screen ingredient text.",
+        "Use vision captioning on cover/middle/key frames to confirm dessert subject.",
+        "Keep manual category mapping as fallback for demo stability."
+      ],
+      "thumbnail_result": {
+        "ok": true,
+        "command": [
+          "/usr/bin/qlmanage",
+          "-t",
+          "-s",
+          "720",
+          "-o",
+          "/Users/liyu/Desktop/大区赛/public/images",
+          "/Users/liyu/Desktop/大区赛/甜品视频/VIDEO1784943747858.mp4"
+        ],
+        "stdout": "Testing Quick Look thumbnails with files:\n\t/Users/liyu/Desktop/大区赛/甜品视频/VIDEO1784943747858.mp4\n* /Users/liyu/Desktop/大区赛/甜品视频/VIDEO1784943747858.mp4 produced one thumbnail\nDone producing thumbnails",
+        "stderr": "",
+        "generated_image": "public/images/VIDEO1784943747858.mp4.png"
+      }
+    },
+    {
+      "video_id": "snow_mochi_01",
+      "source_video": "甜品视频/share_a44b79e4e0e0a335791cae15f5af1a1b.mp4",
+      "category_key": "snow_skin_mochi",
+      "frame_samples": [
+        {
+          "kind": "quicklook_thumbnail",
+          "image": "public/images/share_a44b79e4e0e0a335791cae15f5af1a1b.mp4.png",
+          "timestamp": "thumbnail",
+          "ocr_text": "",
+          "frame_caption": ""
+        }
+      ],
+      "ocr_text": "",
+      "frame_caption": "",
+      "status": "pending_real_vision_ocr",
+      "notes": [
+        "Use OCR on sampled frames to capture on-screen ingredient text.",
+        "Use vision captioning on cover/middle/key frames to confirm dessert subject.",
+        "Keep manual category mapping as fallback for demo stability."
+      ],
+      "thumbnail_result": {
+        "ok": true,
+        "command": [
+          "/usr/bin/qlmanage",
+          "-t",
+          "-s",
+          "720",
+          "-o",
+          "/Users/liyu/Desktop/大区赛/public/images",
+          "/Users/liyu/Desktop/大区赛/甜品视频/share_a44b79e4e0e0a335791cae15f5af1a1b.mp4"
+        ],
+        "stdout": "Testing Quick Look thumbnails with files:\n\t/Users/liyu/Desktop/大区赛/甜品视频/share_a44b79e4e0e0a335791cae15f5af1a1b.mp4\n* /Users/liyu/Desktop/大区赛/甜品视频/share_a44b79e4e0e0a335791cae15f5af1a1b.mp4 produced one thumbnail\nDone producing thumbnails",
+        "stderr": "",
+        "generated_image": "public/images/share_a44b79e4e0e0a335791cae15f5af1a1b.mp4.png"
+      }
+    },
+    {
+      "video_id": "basque_01",
+      "source_video": "甜品视频/share_7740c3b999fed44fcebf5413dbf6803e.mp4",
+      "category_key": "basque",
+      "frame_samples": [
+        {
+          "kind": "quicklook_thumbnail",
+          "image": "public/images/share_7740c3b999fed44fcebf5413dbf6803e.mp4.png",
+          "timestamp": "thumbnail",
+          "ocr_text": "",
+          "frame_caption": ""
+        }
+      ],
+      "ocr_text": "",
+      "frame_caption": "",
+      "status": "pending_real_vision_ocr",
+      "notes": [
+        "Use OCR on sampled frames to capture on-screen ingredient text.",
+        "Use vision captioning on cover/middle/key frames to confirm dessert subject.",
+        "Keep manual category mapping as fallback for demo stability."
+      ],
+      "thumbnail_result": {
+        "ok": true,
+        "command": [
+          "/usr/bin/qlmanage",
+          "-t",
+          "-s",
+          "720",
+          "-o",
+          "/Users/liyu/Desktop/大区赛/public/images",
+          "/Users/liyu/Desktop/大区赛/甜品视频/share_7740c3b999fed44fcebf5413dbf6803e.mp4"
+        ],
+        "stdout": "Testing Quick Look thumbnails with files:\n\t/Users/liyu/Desktop/大区赛/甜品视频/share_7740c3b999fed44fcebf5413dbf6803e.mp4\n* /Users/liyu/Desktop/大区赛/甜品视频/share_7740c3b999fed44fcebf5413dbf6803e.mp4 produced one thumbnail\nDone producing thumbnails",
+        "stderr": "",
+        "generated_image": "public/images/share_7740c3b999fed44fcebf5413dbf6803e.mp4.png"
+      }
+    }
+  ]
+}

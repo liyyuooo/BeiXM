@@ -1,0 +1,73 @@
+{
+  "category": "泡芙",
+  "category_key": "puff",
+  "title": "基础泡芙配方",
+  "serving": "约 8-10 个小泡芙",
+  "difficulty": "中等，新手可做但需要看状态",
+  "base_flavor": ["原味", "奶香", "可夹奶油"],
+  "ingredients": [
+    {"name": "低筋面粉", "amount": "55-60g", "note": "不同教程略有差异，可优先用 60g"},
+    {"name": "黄油", "amount": "40-45g", "note": "提供香气和支撑"},
+    {"name": "水/牛奶", "amount": "100g", "note": "全水更清爽，部分牛奶更奶香"},
+    {"name": "鸡蛋", "amount": "约 90-110g", "note": "必须分次加入，以倒三角状态为准"},
+    {"name": "糖", "amount": "4-5g", "note": "主要辅助上色，不是主要甜味来源"},
+    {"name": "盐", "amount": "1g", "note": "平衡味道"},
+    {"name": "淡奶油/卡仕达酱", "amount": "可选", "note": "用于夹馅"}
+  ],
+  "tools": ["奶锅", "硅胶刮刀", "打蛋盆", "裱花袋", "烤箱", "烤盘", "油纸"],
+  "steps": [
+    {
+      "step": 1,
+      "title": "煮沸液体",
+      "action": "将水或牛奶、黄油、糖和盐加热到完全沸腾。",
+      "key_state": "黄油完全融化，液体持续冒泡。",
+      "time": "2-3 分钟",
+      "image": "public/images/puff_01_step_01.jpg",
+      "risk": "液体没沸腾就加粉，面糊糊化不足，后续不容易膨胀。"
+    },
+    {
+      "step": 2,
+      "title": "烫面并炒干",
+      "action": "倒入低筋面粉快速拌匀，再小火翻炒到成团。",
+      "key_state": "面团能离锅成团，锅底有薄膜。",
+      "time": "1-2 分钟",
+      "image": "public/images/puff_02_step_02.jpg",
+      "risk": "炒得不够会湿黏，炒过头会影响吸收蛋液。"
+    },
+    {
+      "step": 3,
+      "title": "分次加蛋液",
+      "action": "面团稍降温后，少量多次加入蛋液，每次吸收后再继续。",
+      "key_state": "刮刀提起面糊呈顺滑倒三角，落下缓慢。",
+      "time": "5-8 分钟",
+      "image": "public/images/puff_03_step_01.jpg",
+      "risk": "蛋液加多会摊成饼，蛋液太少会膨胀不足。"
+    },
+    {
+      "step": 4,
+      "title": "挤形和烘烤",
+      "action": "挤成 3-4cm 小圆坯，尖角抹平，先高温定型，再烤干外壳。",
+      "key_state": "表面金黄，外壳摸起来偏干，底部不湿。",
+      "time": "22-28 分钟",
+      "image": "public/images/puff_01_step_04.jpg",
+      "risk": "中途开门或烤不干，出炉后容易塌陷。"
+    }
+  ],
+  "bake": {
+    "recommended": "190°C 烤 25 分钟左右",
+    "alternatives": ["200°C 10 分钟定型后转 180°C 烤 15 分钟"],
+    "note": "不同烤箱温差明显，小烤箱可略降温并延长 3-5 分钟。"
+  },
+  "common_pitfalls": [
+    {"problem": "出炉塌陷", "reason": "烘烤不足、中途开门或外壳没烤干", "solution": "前 20 分钟不要开门，烤到外壳干硬后再取出。"},
+    {"problem": "摊成饼", "reason": "蛋液加太多或面糊过稀", "solution": "蛋液保留一部分，看倒三角状态停止。"},
+    {"problem": "不空心", "reason": "烫面不到位或初始温度不足", "solution": "液体沸腾后再加粉，前期保持足够温度定型。"},
+    {"problem": "底部湿黏", "reason": "后段没有烤干", "solution": "上色后继续低一点温度烤几分钟。"}
+  ],
+  "faq": [
+    {"question": "可以少糖吗？", "answer": "泡芙外壳的糖量本来较低，可以略减；主要甜度来自夹馅。"},
+    {"question": "没有裱花袋怎么办？", "answer": "可以用厚保鲜袋剪小口替代，但形状稳定性会差一些。"},
+    {"question": "新手怎么降低失败率？", "answer": "挤小一点、大小一致、蛋液分次加、烤制中途不要开门。"}
+  ],
+  "evidence_videos": ["puff_01", "puff_02", "puff_03"]
+}

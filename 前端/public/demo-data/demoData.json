@@ -1,0 +1,165 @@
+{
+  "currentVideo": {
+    "id": "video_02",
+    "title": "维生素kfc的作品",
+    "author": "@维生素kfc",
+    "videoUrl": "/videos/video_02.mp4",
+    "poster": "",
+    "category": "",
+    "stats": {
+      "likes": "12.3w",
+      "comments": "3421",
+      "favorites": "9.8w",
+      "shares": "2.1w"
+    }
+  },
+  "analysisSteps": [
+    {
+      "id": "identify",
+      "label": "识别视频主体",
+      "detail": "已识别：泡芙",
+      "durationMs": 900
+    },
+    {
+      "id": "retrieve",
+      "label": "检索同类教程",
+      "detail": "找到 3 条相关教程",
+      "durationMs": 1200
+    },
+    {
+      "id": "extract",
+      "label": "提取配方与步骤",
+      "detail": "材料、步骤、温度、时间",
+      "durationMs": 1300
+    },
+    {
+      "id": "comments",
+      "label": "分析评论区反馈",
+      "detail": "成功经验、失败原因、常见问题",
+      "durationMs": 1400
+    },
+    {
+      "id": "synthesize",
+      "label": "综合生成基础教程",
+      "detail": "正在生成可执行基础配方",
+      "durationMs": 1700
+    }
+  ],
+  "baseRecipe": {
+    "title": "经典酥皮泡芙",
+    "summary": "综合当前视频、同类教程与评论区反馈生成的基础配方。",
+    "ingredientsCount": 12,
+    "stepsCount": 8,
+    "successRate": 92,
+    "ingredients": [
+      {
+        "name": "低筋面粉",
+        "amount": "60g"
+      },
+      {
+        "name": "鸡蛋",
+        "amount": "2个"
+      },
+      {
+        "name": "水",
+        "amount": "90ml"
+      },
+      {
+        "name": "黄油",
+        "amount": "45g"
+      },
+      {
+        "name": "糖",
+        "amount": "15g"
+      },
+      {
+        "name": "盐",
+        "amount": "1g"
+      }
+    ],
+    "pitfalls": [
+      "液体完全沸腾、黄油融化后再加面粉。",
+      "面糊提起呈倒三角，边缘缓慢下垂。",
+      "烘烤前段不要开门，外壳烤干后再出炉。"
+    ]
+  },
+  "requirementTags": [
+    "减糖",
+    "新手友好",
+    "少食材",
+    "空气炸锅",
+    "无裱花袋",
+    "低脂"
+  ],
+  "defaultRequirement": "我想做少糖版泡芙，用空气炸锅，没有裱花袋，新手友好一点。",
+  "personalizedRecipe": {
+    "title": "少糖空气炸锅版泡芙",
+    "summary": "糖量降低约 30%，使用空气炸锅，裱花袋可替换为厚保鲜袋剪口。",
+    "adjustments": [
+      "糖量降低约 30%",
+      "空气炸锅分批烤",
+      "无裱花袋替代方案",
+      "新手关键状态提示"
+    ],
+    "tools": [
+      "空气炸锅",
+      "小锅",
+      "刮刀",
+      "打蛋器"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "加热液体",
+        "image": "/assets/thumbnails/step_01_mix.png",
+        "time": "3 分钟"
+      },
+      {
+        "step": 2,
+        "title": "加入面粉",
+        "image": "/assets/thumbnails/step_02_shape.png",
+        "time": "2 分钟"
+      },
+      {
+        "step": 3,
+        "title": "分次加蛋液",
+        "image": "/assets/thumbnails/step_03_bake.png",
+        "time": "5 分钟"
+      },
+      {
+        "step": 4,
+        "title": "检查面糊状态",
+        "image": "/assets/thumbnails/step_03_bake.png",
+        "time": "1 分钟"
+      },
+      {
+        "step": 5,
+        "title": "挤入炸篮",
+        "image": "/assets/thumbnails/step_04_finish.png",
+        "time": "4 分钟"
+      },
+      {
+        "step": 6,
+        "title": "空气炸锅烘烤",
+        "image": "/assets/thumbnails/step_04_finish.png",
+        "time": "约 25 分钟"
+      },
+      {
+        "step": 7,
+        "title": "放凉并填馅",
+        "image": "/assets/thumbnails/step_04_finish.png",
+        "time": "10 分钟"
+      }
+    ],
+    "faq": [
+      {
+        "question": "没有裱花袋怎么办？",
+        "answer": "使用厚保鲜袋，在一角剪约 1 厘米小口。"
+      },
+      {
+        "question": "空气炸锅会不会烤焦？",
+        "answer": "先用较低温度烤定型，后段观察上色并按需盖锡纸。"
+      }
+    ]
+  }
+}

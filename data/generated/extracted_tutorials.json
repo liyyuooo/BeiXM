@@ -1,0 +1,184 @@
+[
+  {
+    "video_id": "video_01",
+    "dish_name": "巴斯克芝士蛋糕",
+    "ingredients": [
+      {
+        "name": "奶油奶酪",
+        "amount": "待确认",
+        "note": "具体品牌待确认"
+      },
+      {
+        "name": "淡奶油",
+        "amount": "待确认",
+        "note": ""
+      },
+      {
+        "name": "蛋黄",
+        "amount": "待确认",
+        "note": "评论区提到蛋黄的用途不明"
+      }
+    ],
+    "tools": [
+      "待确认"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "准备材料",
+        "action": "准备好奶油奶酪、淡奶油和蛋黄",
+        "key_state": "",
+        "time": "",
+        "temperature": "",
+        "risk": ""
+      },
+      {
+        "step": 2,
+        "title": "混合材料",
+        "action": "将奶油奶酪与淡奶油混合均匀",
+        "key_state": "",
+        "time": "",
+        "temperature": "",
+        "risk": ""
+      },
+      {
+        "step": 3,
+        "title": "烘烤",
+        "action": "将混合好的材料倒入模具中烘烤",
+        "key_state": "",
+        "time": "",
+        "temperature": "",
+        "risk": ""
+      }
+    ],
+    "flavors": [
+      "甜"
+    ],
+    "tips_from_comments": [
+      "奶油奶酪和淡奶油是主要材料",
+      "蛋黄的用途需要进一步确认"
+    ]
+  },
+  {
+    "video_id": "video_02",
+    "dish_name": "双重抹茶巴斯克",
+    "ingredients": [
+      {
+        "name": "抹茶粉",
+        "amount": "待确认",
+        "note": ""
+      },
+      {
+        "name": "奶油奶酪",
+        "amount": "待确认",
+        "note": ""
+      },
+      {
+        "name": "淡奶油",
+        "amount": "待确认",
+        "note": ""
+      }
+    ],
+    "tools": [
+      "待确认"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "准备材料",
+        "action": "准备好抹茶粉、奶油奶酪和淡奶油",
+        "key_state": "",
+        "time": "",
+        "temperature": "",
+        "risk": ""
+      },
+      {
+        "step": 2,
+        "title": "混合材料",
+        "action": "将抹茶粉与奶油奶酪、淡奶油混合均匀",
+        "key_state": "",
+        "time": "",
+        "temperature": "",
+        "risk": ""
+      },
+      {
+        "step": 3,
+        "title": "烘烤",
+        "action": "将混合好的材料倒入模具中烘烤",
+        "key_state": "",
+        "time": "",
+        "temperature": "230度（需注意烤箱温度）",
+        "risk": "高温可能导致表面焦糊"
+      }
+    ],
+    "flavors": [
+      "抹茶"
+    ],
+    "tips_from_comments": [
+      "抹茶粉的购买地点和品质影响口感",
+      "烤箱温度控制在230度，需注意观察防止焦糊"
+    ]
+  },
+  {
+    "video_id": "video_03",
+    "dish_name": "青柠慕斯巴斯克",
+    "ingredients": [
+      {
+        "name": "奶油奶酪",
+        "amount": "待确认",
+        "note": "具体购买地点待确认"
+      },
+      {
+        "name": "青柠",
+        "amount": "待确认",
+        "note": "具体用量待确认"
+      },
+      {
+        "name": "吉利丁片",
+        "amount": "待确认",
+        "note": ""
+      }
+    ],
+    "tools": [
+      "模具",
+      "料理盆",
+      "刮刀"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "准备材料",
+        "action": "准备好奶油奶酪、青柠和吉利丁片",
+        "key_state": "",
+        "time": "",
+        "temperature": "",
+        "risk": ""
+      },
+      {
+        "step": 2,
+        "title": "混合材料",
+        "action": "将奶油奶酪与青柠汁、吉利丁片混合均匀",
+        "key_state": "",
+        "time": "",
+        "temperature": "",
+        "risk": ""
+      },
+      {
+        "step": 3,
+        "title": "冷冻",
+        "action": "将混合好的材料倒入模具中冷冻",
+        "key_state": "",
+        "time": "待确认",
+        "temperature": "",
+        "risk": ""
+      }
+    ],
+    "flavors": [
+      "青柠"
+    ],
+    "tips_from_comments": [
+      "模具大小影响材料用量",
+      "冷冻时间需根据模具大小调整"
+    ]
+  }
+]
