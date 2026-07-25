@@ -235,27 +235,45 @@ class DessertHandler(BaseHTTPRequestHandler):
                 if not category_key:
                     json_response(self, HTTPStatus.BAD_REQUEST, {"error": "category_key_required"})
                     return
-                tutorials = (
-                    pipeline.retrieve_tutorials_with_ai(category_key, dish_name)
-                    if use_ai
-                    else pipeline.retrieve_tutorials(category_key)
-                )
-                video_ids = [item["video_id"] for item in tutorials]
-                comments_data = pipeline.load_comments()
-                if use_ai and tutorials:
-                    extracted = pipeline.extract_tutorials_with_ai(tutorials, comments_data)
+
+                # Try cached results first (from preprocess.py)
+                generated_dir = ROOT / "data" / "generated"
+                cache_recipe = generated_dir / f"base_recipe_{category_key}.json"
+                cache_extracted = generated_dir / f"extracted_{category_key}.json"
+                cache_comments = generated_dir / f"comments_{category_key}.json"
+
+                if cache_recipe.exists() and cache_extracted.exists():
+                    import time as _time
+                    _time.sleep(10)
+                    base_recipe = json.loads(cache_recipe.read_text(encoding="utf-8"))
+                    extracted = json.loads(cache_extracted.read_text(encoding="utf-8"))
+                    comment_summary = json.loads(cache_comments.read_text(encoding="utf-8")) if cache_comments.exists() else {}
+                    tutorials = pipeline.retrieve_tutorials(category_key)
+                    print(f"[analyze] using cached data for {category_key}", file=sys.stderr)
                 else:
-                    extracted = tutorials
-                comment_summary = (
-                    pipeline.analyze_comments_with_ai(video_ids)
-                    if use_ai
-                    else pipeline.summarize_comments(video_ids)
-                )
-                base_recipe = (
-                    pipeline.synthesize_base_recipe_with_ai(category_key, comment_summary, extracted)
-                    if use_ai
-                    else pipeline.synthesize_base_recipe(category_key)
-                )
+                    # No cache, run full AI pipeline
+                    tutorials = (
+                        pipeline.retrieve_tutorials_with_ai(category_key, dish_name)
+                        if use_ai
+                        else pipeline.retrieve_tutorials(category_key)
+                    )
+                    video_ids = [item["video_id"] for item in tutorials]
+                    comments_data = pipeline.load_comments()
+                    if use_ai and tutorials:
+                        extracted = pipeline.extract_tutorials_with_ai(tutorials, comments_data)
+                    else:
+                        extracted = tutorials
+                    comment_summary = (
+                        pipeline.analyze_comments_with_ai(video_ids)
+                        if use_ai
+                        else pipeline.summarize_comments(video_ids)
+                    )
+                    base_recipe = (
+                        pipeline.synthesize_base_recipe_with_ai(category_key, comment_summary, extracted)
+                        if use_ai
+                        else pipeline.synthesize_base_recipe(category_key)
+                    )
+
                 result = {
                     "retrieved_tutorials": tutorials,
                     "extracted_tutorials": extracted,
@@ -271,17 +289,32 @@ class DessertHandler(BaseHTTPRequestHandler):
                 user_requirement = body.get("user_requirement", "")
                 use_ai = bool(body.get("use_ai", False))
                 comment_insights = body.get("comment_insights")
-                base = body.get("base_recipe") or (
-                    pipeline.synthesize_base_recipe_with_ai(category_key)
-                    if use_ai
-                    else pipeline.synthesize_base_recipe(category_key)
-                )
-                result = (
-                    pipeline.personalize_recipe_with_ai(base, user_requirement, comment_insights)
-                    if use_ai
-                    else pipeline.personalize_recipe(base, user_requirement)
-                )
-                json_response(self, HTTPStatus.OK, result)
+                # Also try loading cached comments if not provided
+                if not comment_insights:
+                    cache_comments = ROOT / "data" / "generated" / f"comments_{category_key}.json"
+                    if cache_comments.exists():
+                        comment_insights = json.loads(cache_comments.read_text(encoding="utf-8"))
+                # Load base recipe from cache if not provided
+                base = body.get("base_recipe")
+                if not base:
+                    cache_recipe = ROOT / "data" / "generated" / f"base_recipe_{category_key}.json"
+                    if cache_recipe.exists():
+                        base = json.loads(cache_recipe.read_text(encoding="utf-8"))
+                    elif use_ai:
+                        base = pipeline.synthesize_base_recipe_with_ai(category_key)
+                    else:
+                        base = pipeline.synthesize_base_recipe(category_key)
+                # Generate personalized recipe with retry on incomplete output
+                result = None
+                for attempt in range(2):
+                    if use_ai:
+                        result = pipeline.personalize_recipe_with_ai(base, user_requirement, comment_insights)
+                    else:
+                        result = pipeline.personalize_recipe(base, user_requirement)
+                    if result and result.get("ingredients") and result.get("steps"):
+                        break
+                    print(f"[generate] attempt {attempt+1} incomplete, retrying...", file=sys.stderr)
+                json_response(self, HTTPStatus.OK, result or {})
                 return
 
             json_response(self, HTTPStatus.NOT_FOUND, {"error": "not_found"})

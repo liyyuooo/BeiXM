@@ -1,0 +1,111 @@
+{
+  "category": "巴斯克",
+  "category_key": "basque",
+  "title": "基础巴斯克芝士蛋糕配方",
+  "serving": "6-8人",
+  "difficulty": "中等",
+  "base_flavor": [
+    "芝士味"
+  ],
+  "ingredients": [
+    {
+      "name": "奶油奶酪",
+      "amount": "250-300克",
+      "note": "软化至室温"
+    },
+    {
+      "name": "淡奶油",
+      "amount": "100-150毫升",
+      "note": "可根据个人喜好调整"
+    },
+    {
+      "name": "蛋黄",
+      "amount": "2-3个",
+      "note": "新鲜鸡蛋"
+    }
+  ],
+  "tools": [
+    "烤箱",
+    "模具（6-8英寸）",
+    "料理盆",
+    "刮刀",
+    "搅蛋棒（手动可替代）"
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "title": "准备材料",
+      "action": "准备好所有材料，并确保奶油奶酪已软化至室温。",
+      "key_state": "奶油奶酪软化至容易搅拌的状态",
+      "time": "",
+      "image": "./public/assets/generated/basque_step_01.png",
+      "risk": ""
+    },
+    {
+      "step": 2,
+      "title": "混合材料",
+      "action": "将奶油奶酪、淡奶油和蛋黄混合均匀，直至顺滑无颗粒。",
+      "key_state": "混合物顺滑无颗粒",
+      "time": "",
+      "image": "./public/assets/generated/basque_step_02.png",
+      "risk": "避免过度搅拌导致气泡产生"
+    },
+    {
+      "step": 3,
+      "title": "烘烤",
+      "action": "将混合好的面糊倒入模具中，放入预热好的烤箱烘烤。",
+      "key_state": "表面呈金黄色",
+      "time": "25-35分钟",
+      "image": "./public/assets/generated/basque_step_03.png",
+      "risk": "注意观察表面颜色，避免烤焦"
+    },
+    {
+      "step": 4,
+      "title": "冷却与冷藏",
+      "action": "从烤箱取出后自然冷却，然后放入冰箱冷藏至少4小时或过夜。",
+      "key_state": "完全冷却",
+      "time": "4小时以上",
+      "image": "./public/assets/generated/basque_step_04.png",
+      "risk": ""
+    }
+  ],
+  "bake": {
+    "recommended": "230度，25-35分钟",
+    "alternatives": [
+      "根据烤箱实际情况调整温度和时间"
+    ],
+    "note": "表面金黄色为最佳状态，避免过度烘烤导致表面焦黑"
+  },
+  "common_pitfalls": [
+    {
+      "problem": "表面烤焦",
+      "reason": "温度过高或时间过长",
+      "solution": "适当降低温度或缩短烘烤时间，可使用锡纸覆盖表面"
+    },
+    {
+      "problem": "内部未熟",
+      "reason": "烘烤时间不足",
+      "solution": "延长烘烤时间，确保表面金黄色且中心凝固"
+    }
+  ],
+  "faq": [
+    {
+      "question": "如果要做一个四寸的蛋糕，材料用量怎么调整？",
+      "answer": "所有材料用量大约减半即可，但需根据实际情况微调"
+    },
+    {
+      "question": "烤箱温度和时间应该如何设定？",
+      "answer": "推荐230度，25-35分钟，但需根据个人烤箱特性进行调整"
+    },
+    {
+      "question": "冷藏需要多长时间？",
+      "answer": "至少4小时，最好过夜，以确保蛋糕完全定型"
+    }
+  ],
+  "evidence_videos": [
+    "video_03",
+    "video_01",
+    "video_02"
+  ],
+  "ai_status": "ok"
+}

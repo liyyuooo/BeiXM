@@ -902,10 +902,11 @@ function enrichRecipe(recipe, baseRecipe) {
     note: item.note || "",
   }));
 
-  const steps = (recipe?.steps || baseRecipe?.steps || []).map((step) => ({
+  const baseSteps = baseRecipe?.steps || [];
+  const steps = (recipe?.steps || baseSteps).map((step, idx) => ({
     ...step,
     keyState: step.keyState || step.key_state || "",
-    image: step.image || state.pauseFrame || "",
+    image: step.image || (baseSteps[idx] && baseSteps[idx].image) || state.pauseFrame || "",
   }));
 
   return {

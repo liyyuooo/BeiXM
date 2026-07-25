@@ -1,0 +1,114 @@
+{
+  "category": "泡芙",
+  "category_key": "puff",
+  "title": "家庭版基础泡芙配方",
+  "serving": "15个",
+  "difficulty": "中等",
+  "base_flavor": [
+    "原味"
+  ],
+  "ingredients": [
+    {
+      "name": "黄油",
+      "amount": "45g",
+      "note": "用于泡芙面糊"
+    },
+    {
+      "name": "水",
+      "amount": "108g",
+      "note": "用于泡芙面糊"
+    },
+    {
+      "name": "糖",
+      "amount": "4g",
+      "note": "用于泡芙面糊"
+    },
+    {
+      "name": "盐",
+      "amount": "1g",
+      "note": "用于泡芙面糊"
+    },
+    {
+      "name": "面粉",
+      "amount": "55g",
+      "note": "用于泡芙面糊"
+    },
+    {
+      "name": "全蛋液",
+      "amount": "112g",
+      "note": "用于泡芙面糊"
+    }
+  ],
+  "tools": [
+    "烤箱",
+    "油纸",
+    "圆形模具",
+    "刮刀",
+    "喷雾"
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "title": "制作泡芙面糊",
+      "action": "将黄油、水、糖、盐煮沸至半扑锅状态，关火倒入面粉快速搅拌，重新开小火翻炒一分半，分三次加入常温蛋液，直至面糊可掉落且刮刀上倒挂光滑倒三角。",
+      "key_state": "面糊可掉落且刮刀上倒挂光滑倒三角",
+      "time": "约2分钟",
+      "risk": "面糊过稀导致泡芙扁平",
+      "image": "./public/assets/generated/puff_step_01.png"
+    },
+    {
+      "step": 2,
+      "title": "挤泡芙面糊",
+      "action": "将面糊装入裱花袋，挤在铺有油纸的烤盘上，保持适当间距。",
+      "key_state": "面糊间距均匀，大小一致",
+      "time": "待确认",
+      "risk": "面糊挤得太挤可能导致烤制时膨胀不一致",
+      "image": "./public/assets/generated/puff_step_02.png"
+    },
+    {
+      "step": 3,
+      "title": "烘烤泡芙",
+      "action": "将烤盘放入预热好的烤箱中层，200度烘烤20分钟，然后转180度继续烘烤5-10分钟。",
+      "key_state": "泡芙完全上色后关火闷5分钟",
+      "time": "20-25分钟",
+      "risk": "泡芙未熟透或过度烘烤",
+      "image": "./public/assets/generated/puff_step_03.png"
+    }
+  ],
+  "bake": {
+    "recommended": "200度20分钟转180度5-10分钟",
+    "alternatives": [
+      "烤箱温度可根据实际情况调整"
+    ],
+    "note": "确保烤箱预热充分，烤制过程中注意观察泡芙上色情况"
+  },
+  "common_pitfalls": [
+    {
+      "problem": "泡芙面团太稀",
+      "reason": "可能是面粉吸水性不同或蛋液添加过多",
+      "solution": "根据面粉吸水性适当调整蛋液量，确保面糊呈倒三角状"
+    },
+    {
+      "problem": "泡芙塌陷",
+      "reason": "烤箱温度不够或烤制时间不足",
+      "solution": "确保烤箱预热充分，适当延长烤制时间或提高烤箱温度"
+    },
+    {
+      "problem": "泡芙膨胀不一致",
+      "reason": "面糊挤得太挤或烤盘受热不均",
+      "solution": "保持面糊间距，确保烤盘受热均匀"
+    }
+  ],
+  "faq": [
+    {
+      "question": "为什么我的泡芙面团太稀？",
+      "answer": "可能是面粉吸水性不同或蛋液添加过多，根据实际情况调整蛋液量"
+    }
+  ],
+  "evidence_videos": [
+    "video_04",
+    "video_06",
+    "video_08"
+  ],
+  "ai_status": "ok"
+}

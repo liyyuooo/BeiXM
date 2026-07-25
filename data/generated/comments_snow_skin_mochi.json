@@ -1,0 +1,101 @@
+{
+  "success_cases": [
+    "按照博主的配方做了，但是我做的皮有点黏嘴巴，不过放冰箱冷藏第二天皮也是软的。",
+    "第一天吃是柔软拉丝的，可我更喜欢冷藏了一晚的，皮虽然比前一天稍硬了点，但吃起来不腻了。",
+    "跟着视频做了，为啥皮有点苦味呢",
+    "跟着博主做的，第一次做雪媚娘就成功了哈哈哈"
+  ],
+  "failure_reasons": [
+    {
+      "problem": "皮太黏",
+      "reason": "可能是揉面时没有充分揉制或者没有使用足够的熟粉",
+      "solution": "增加揉面时间，并在操作过程中适当添加熟粉"
+    },
+    {
+      "problem": "成品塌陷",
+      "reason": "奶油打发不足或皮没有完全冷却",
+      "solution": "确保奶油打发至硬性发泡，皮完全冷却后再进行组装"
+    },
+    {
+      "problem": "皮发硬",
+      "reason": "冷藏时间过长或配方中水分不足",
+      "solution": "适量调整配方中的水分比例，冷藏时间不宜过长"
+    }
+  ],
+  "substitutions": [
+    {
+      "need": "黄油",
+      "suggestion": "可以用普通的食用油代替"
+    },
+    {
+      "need": "玉米淀粉",
+      "suggestion": "可以用木薯淀粉代替"
+    },
+    {
+      "need": "淡奶油",
+      "suggestion": "可以用多功能淡奶油代替"
+    }
+  ],
+  "faq": [
+    {
+      "question": "为什么我的皮会粘在模具上？",
+      "answer": "可以在模具上撒一些熟糕粉，或者使用不粘锅炒制的熟糯米粉"
+    },
+    {
+      "question": "奶油要打到什么程度？",
+      "answer": "奶油需要打发至硬性发泡，即提起打蛋器时奶油呈尖角状"
+    },
+    {
+      "question": "为什么我做的皮感觉很硬？",
+      "answer": "可能是冷藏时间过长导致，可以尝试减少冷藏时间或调整配方中的水分比例"
+    }
+  ],
+  "risk_alerts": [
+    "揉面时如果粘手严重，可能会导致操作困难，建议使用一次性手套辅助操作",
+    "如果没有正确打发奶油，可能导致成品塌陷或口感不佳",
+    "冷藏时间过长会使皮变硬，影响口感"
+  ],
+  "ai_status": "ok",
+  "total_comments_used": 308,
+  "fallback_summary": {
+    "total_comments_used": 769,
+    "label_counts": {
+      "其他": 769
+    },
+    "top_comments": {
+      "其他": [
+        {
+          "comment_id": "7617318292394918715",
+          "text": "四个用200克奶油吗",
+          "likes": 0,
+          "nickname": "非*"
+        },
+        {
+          "comment_id": "7630831188798735113",
+          "text": "这奶油可以放现成的奶酪吗？[捂脸]",
+          "likes": 0,
+          "nickname": "沵***ご"
+        },
+        {
+          "comment_id": "7662626608305406778",
+          "text": "你好，200g奶油是刚刚好做的嘛，会不会太多一点呢",
+          "likes": 0,
+          "nickname": "7***0"
+        },
+        {
+          "comment_id": "7649216987679785771",
+          "text": "有没有要拼奶油的",
+          "likes": 0,
+          "nickname": "P***s"
+        },
+        {
+          "comment_id": "7662546141430416155",
+          "text": "为什么我做的会太稀了做好了也会塌掉",
+          "likes": 0,
+          "nickname": "8***）"
+        }
+      ]
+    },
+    "synthetic_notice": "Current comments are synthetic placeholders and should be replaced with real comments later."
+  }
+}

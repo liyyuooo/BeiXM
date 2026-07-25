@@ -1,0 +1,231 @@
+[
+  {
+    "video_id": "video_03",
+    "dish_name": "青柠慕斯巴斯克",
+    "ingredients": [
+      {
+        "name": "奶油奶酪",
+        "amount": "待确认",
+        "note": "用户询问购买店铺"
+      },
+      {
+        "name": "吉利丁片",
+        "amount": "待确认",
+        "note": ""
+      },
+      {
+        "name": "淡奶油",
+        "amount": "待确认",
+        "note": ""
+      },
+      {
+        "name": "香水柠檬",
+        "amount": "待确认",
+        "note": "用户询问具体是什么"
+      }
+    ],
+    "tools": [
+      "烤箱",
+      "模具（大小待确认）",
+      "料理盆（大小待确认）",
+      "刮刀",
+      "搅蛋棒（手动可替代）"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "准备材料",
+        "action": "准备好所有材料",
+        "key_state": "",
+        "time": "",
+        "temperature": "",
+        "risk": ""
+      },
+      {
+        "step": 2,
+        "title": "混合材料",
+        "action": "将奶油奶酪、淡奶油等材料混合均匀",
+        "key_state": "",
+        "time": "",
+        "temperature": "",
+        "risk": ""
+      },
+      {
+        "step": 3,
+        "title": "烘烤",
+        "action": "放入预热好的烤箱烘烤",
+        "key_state": "表面金黄色",
+        "time": "待确认",
+        "temperature": "待确认",
+        "risk": "表面可能烤焦"
+      },
+      {
+        "step": 4,
+        "title": "冷却与冷藏",
+        "action": "取出后冷却并放入冰箱冷藏",
+        "key_state": "完全冷却",
+        "time": "待确认",
+        "temperature": "",
+        "risk": ""
+      }
+    ],
+    "flavors": [
+      "青柠味",
+      "慕斯口感"
+    ],
+    "tips_from_comments": [
+      "如果要做一个四寸的话，是不是所有材料都用一半就可以了？",
+      "用烤箱的话上下多少度呀",
+      "要冻多久呀？",
+      "用多大的模具呀",
+      "p9可以用手动的搅蛋棒吗",
+      "上面绿色撒的是什么"
+    ]
+  },
+  {
+    "video_id": "video_01",
+    "dish_name": "巴斯克芝士蛋糕",
+    "ingredients": [
+      {
+        "name": "奶油奶酪",
+        "amount": "待确认",
+        "note": "用户询问具体品牌"
+      },
+      {
+        "name": "淡奶油",
+        "amount": "待确认",
+        "note": ""
+      },
+      {
+        "name": "蛋黄",
+        "amount": "待确认",
+        "note": "用户询问用途"
+      }
+    ],
+    "tools": [
+      "烤箱",
+      "模具",
+      "料理盆"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "准备材料",
+        "action": "准备好所有材料",
+        "key_state": "",
+        "time": "",
+        "temperature": "",
+        "risk": ""
+      },
+      {
+        "step": 2,
+        "title": "混合材料",
+        "action": "将奶油奶酪、淡奶油等材料混合均匀",
+        "key_state": "",
+        "time": "",
+        "temperature": "",
+        "risk": ""
+      },
+      {
+        "step": 3,
+        "title": "烘烤",
+        "action": "放入预热好的烤箱烘烤",
+        "key_state": "表面金黄色",
+        "time": "待确认",
+        "temperature": "待确认",
+        "risk": "表面可能烤焦"
+      },
+      {
+        "step": 4,
+        "title": "冷却与冷藏",
+        "action": "取出后冷却并放入冰箱冷藏",
+        "key_state": "完全冷却",
+        "time": "待确认",
+        "temperature": "",
+        "risk": ""
+      }
+    ],
+    "flavors": [
+      "芝士味"
+    ],
+    "tips_from_comments": [
+      "那颗蛋黄干啥去了？？",
+      "是不是可以翻车那一下放开头"
+    ]
+  },
+  {
+    "video_id": "video_02",
+    "dish_name": "双重抹茶巴斯克",
+    "ingredients": [
+      {
+        "name": "奶油奶酪",
+        "amount": "待确认",
+        "note": ""
+      },
+      {
+        "name": "淡奶油",
+        "amount": "待确认",
+        "note": "用户询问是否可用无糖酸奶代替"
+      },
+      {
+        "name": "抹茶粉",
+        "amount": "待确认",
+        "note": "用户询问购买地点及味道"
+      }
+    ],
+    "tools": [
+      "烤箱",
+      "模具（大小待确认）",
+      "料理盆",
+      "油纸"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "准备材料",
+        "action": "准备好所有材料",
+        "key_state": "",
+        "time": "",
+        "temperature": "",
+        "risk": ""
+      },
+      {
+        "step": 2,
+        "title": "混合材料",
+        "action": "将奶油奶酪、淡奶油、抹茶粉等材料混合均匀",
+        "key_state": "",
+        "time": "",
+        "temperature": "",
+        "risk": ""
+      },
+      {
+        "step": 3,
+        "title": "烘烤",
+        "action": "放入预热好的烤箱烘烤",
+        "key_state": "表面金黄色",
+        "time": "待确认",
+        "temperature": "230度（用户反馈可能需要调整）",
+        "risk": "表面可能烤焦"
+      },
+      {
+        "step": 4,
+        "title": "冷却与冷藏",
+        "action": "取出后冷却并放入冰箱冷藏",
+        "key_state": "完全冷却",
+        "time": "待确认",
+        "temperature": "",
+        "risk": ""
+      }
+    ],
+    "flavors": [
+      "抹茶味"
+    ],
+    "tips_from_comments": [
+      "必须放冰箱四个小时吗",
+      "真的要230度吗",
+      "我的烤箱230度上面就糊了，需要看着颜色差不多就盖锡纸吗？",
+      "用空气炸锅大概需要什么温度 多长时间啊",
+      "下面的有点颗粒感，是哪里出错了吗？"
+    ]
+  }
+]

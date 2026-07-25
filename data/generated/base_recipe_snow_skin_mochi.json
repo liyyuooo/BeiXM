@@ -1,0 +1,143 @@
+{
+  "category": "雪媚娘",
+  "category_key": "snow_skin_mochi",
+  "title": "基础雪媚娘配方",
+  "serving": "4个",
+  "difficulty": "中等",
+  "base_flavor": [
+    "甜味"
+  ],
+  "ingredients": [
+    {
+      "name": "糯米粉",
+      "amount": "120克",
+      "note": "可用水磨糯米粉代替"
+    },
+    {
+      "name": "玉米淀粉",
+      "amount": "30克",
+      "note": "可用木薯淀粉代替"
+    },
+    {
+      "name": "糖",
+      "amount": "25-30克",
+      "note": ""
+    },
+    {
+      "name": "牛奶",
+      "amount": "160-190克",
+      "note": "根据实际情况调整"
+    },
+    {
+      "name": "黄油",
+      "amount": "15-20克",
+      "note": "可用普通食用油代替"
+    },
+    {
+      "name": "淡奶油",
+      "amount": "200-250克",
+      "note": "可根据个人喜好调整"
+    },
+    {
+      "name": "细砂糖",
+      "amount": "20克",
+      "note": "用于打发淡奶油"
+    }
+  ],
+  "tools": [
+    "蒸锅",
+    "模具",
+    "打蛋器（用于打发奶油）",
+    "一次性手套（防止粘手）"
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "title": "准备面糊",
+      "action": "将糯米粉、玉米淀粉、糖和牛奶混合均匀，搅拌至无颗粒。",
+      "key_state": "面糊光滑无颗粒",
+      "time": "约5分钟",
+      "image": "./public/assets/generated/snow_skin_mochi_step_01.png",
+      "risk": "面糊不均匀可能导致成品粗糙"
+    },
+    {
+      "step": 2,
+      "title": "蒸制面糊",
+      "action": "将面糊放入蒸锅中蒸熟。",
+      "key_state": "面糊完全蒸熟，不粘手",
+      "time": "约15-20分钟",
+      "image": "./public/assets/generated/snow_skin_mochi_step_02.png",
+      "risk": "蒸制时间不足可能导致面糊未熟透"
+    },
+    {
+      "step": 3,
+      "title": "加入黄油",
+      "action": "将蒸熟的面糊加入黄油，揉匀。",
+      "key_state": "面团光滑有弹性",
+      "time": "约5分钟",
+      "image": "./public/assets/generated/snow_skin_mochi_step_03.png",
+      "risk": "黄油量不足可能导致面团不够Q弹"
+    },
+    {
+      "step": 4,
+      "title": "打发奶油",
+      "action": "将淡奶油和细砂糖打发至硬性发泡。",
+      "key_state": "奶油打发至硬性发泡",
+      "time": "约5-10分钟",
+      "image": "./public/assets/generated/snow_skin_mochi_step_04.png",
+      "risk": "奶油打发不足可能导致成品塌陷"
+    },
+    {
+      "step": 5,
+      "title": "组装雪媚娘",
+      "action": "将打发的奶油和水果馅料包裹在面团中，放入模具中整形。",
+      "key_state": "成品形状规整，不塌陷",
+      "time": "约10分钟",
+      "image": "./public/assets/generated/snow_skin_mochi_step_05.png",
+      "risk": "面团过黏可能导致成品不易成型"
+    }
+  ],
+  "bake": {
+    "recommended": "",
+    "alternatives": [],
+    "note": "无需烘烤"
+  },
+  "common_pitfalls": [
+    {
+      "problem": "皮太黏",
+      "reason": "可能是揉面时没有充分揉制或者没有使用足够的熟粉",
+      "solution": "增加揉面时间，并在操作过程中适当添加熟粉"
+    },
+    {
+      "problem": "成品塌陷",
+      "reason": "奶油打发不足或皮没有完全冷却",
+      "solution": "确保奶油打发至硬性发泡，皮完全冷却后再进行组装"
+    },
+    {
+      "problem": "皮发硬",
+      "reason": "冷藏时间过长或配方中水分不足",
+      "solution": "适量调整配方中的水分比例，冷藏时间不宜过长"
+    }
+  ],
+  "faq": [
+    {
+      "question": "为什么我的皮会粘在模具上？",
+      "answer": "可以在模具上撒一些熟糕粉，或者使用不粘锅炒制的熟糯米粉"
+    },
+    {
+      "question": "奶油要打到什么程度？",
+      "answer": "奶油需要打发至硬性发泡，即提起打蛋器时奶油呈尖角状"
+    },
+    {
+      "question": "为什么我做的皮感觉很硬？",
+      "answer": "可能是冷藏时间过长导致，可以尝试减少冷藏时间或调整配方中的水分比例"
+    }
+  ],
+  "evidence_videos": [
+    "video_05",
+    "video_07",
+    "video_09",
+    "video_10"
+  ],
+  "ai_status": "ok"
+}

@@ -1,0 +1,95 @@
+{
+  "success_cases": [
+    "博主的配方真的很赞了，做了两次都很成功。",
+    "下午刚出炉，完美😍复刻[比心]真的太好吃啦。",
+    "做的灰常成功！！每个泡芙都鼓鼓的，没有一个失败。",
+    "第一次试[呲牙]成功了[耶][耶]"
+  ],
+  "failure_reasons": [
+    {
+      "problem": "泡芙面团太稀",
+      "reason": "可能是面粉吸水性不同或蛋液添加过多",
+      "solution": "根据面粉吸水性适当调整蛋液量，确保面糊呈倒三角状"
+    },
+    {
+      "problem": "泡芙塌陷",
+      "reason": "烤箱温度不够或烤制时间不足",
+      "solution": "确保烤箱预热充分，适当延长烤制时间或提高烤箱温度"
+    },
+    {
+      "problem": "泡芙膨胀不一致",
+      "reason": "面糊挤得太挤或烤盘受热不均",
+      "solution": "保持面糊间距，确保烤盘受热均匀"
+    }
+  ],
+  "substitutions": [
+    {
+      "need": "水饴",
+      "suggestion": "可以用蜂蜜或麦芽糖代替"
+    },
+    {
+      "need": "烤箱",
+      "suggestion": "可以尝试使用空气炸锅，但效果可能不同"
+    }
+  ],
+  "faq": [
+    {
+      "question": "没有水饴怎么办？",
+      "answer": "可以用蜂蜜或麦芽糖代替水饴"
+    },
+    {
+      "question": "烤箱可以用空气炸锅代替吗？",
+      "answer": "可以尝试，但效果可能与烤箱有所不同"
+    },
+    {
+      "question": "为什么我的泡芙面团太稀？",
+      "answer": "可能是面粉吸水性不同或蛋液添加过多，根据实际情况调整蛋液量"
+    }
+  ],
+  "risk_alerts": [
+    "泡芙制作过程中容易出现塌陷、面糊太稀等问题，需注意烤箱温度和面糊状态"
+  ],
+  "ai_status": "ok",
+  "total_comments_used": 296,
+  "fallback_summary": {
+    "total_comments_used": 6076,
+    "label_counts": {
+      "其他": 6076
+    },
+    "top_comments": {
+      "其他": [
+        {
+          "comment_id": "7616397032156922624",
+          "text": "倒入冰淇淋的话岂不是[憨笑]",
+          "likes": 0,
+          "nickname": "2***დ"
+        },
+        {
+          "comment_id": "7616996910746665786",
+          "text": "魂牵梦绕焦糖泡芙不感兴趣，但我对魂牵梦绕风云荡挺感兴趣的",
+          "likes": 0,
+          "nickname": "活***人"
+        },
+        {
+          "comment_id": "7616653467646133029",
+          "text": "我还以为魂牵梦绕风云荡嘞[愉快]",
+          "likes": 0,
+          "nickname": "皮***儿"
+        },
+        {
+          "comment_id": "7640481666410840869",
+          "text": "上个月好利来焦糖脆皮泡芙上新的时候我在操作间挤了四千个泡芙",
+          "likes": 0,
+          "nickname": "西***呀"
+        },
+        {
+          "comment_id": "7616645780896269096",
+          "text": "塌了[裂开]",
+          "likes": 0,
+          "nickname": "嘎***脆"
+        }
+      ]
+    },
+    "synthetic_notice": "Current comments are synthetic placeholders and should be replaced with real comments later."
+  }
+}
